@@ -27,8 +27,12 @@ document.addEventListener('DOMContentLoaded', () => {
             resultSpan.textContent = '?';
             resultSpan.dataset.answer = num1 + num2;
         } else {
-            resultSpan.textContent = '?';
-            resultSpan.dataset.answer = num1 - num2;
+            if (num1 < num2) {
+                updateProblem();
+            } else {
+                resultSpan.textContent = '?';
+                resultSpan.dataset.answer = num1 - num2;
+            }
         }
     }
 
