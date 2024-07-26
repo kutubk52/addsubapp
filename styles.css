@@ -20,7 +20,7 @@ header p {
 
 .finger-image {
     width: 150px;
-    height: auto;
+    height: 200px;
     margin: 0 10px;
     border: 2px solid #008080;
     border-radius: 10px;
@@ -39,7 +39,6 @@ button {
 }
 
 .container {
-    max-width: 800px;
     margin-top: 50px;
     background-color: #fff;
     padding: 20px;
