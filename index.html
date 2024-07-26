@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Learning App</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="text-center my-4">
+            <h1>Math Learning App</h1>
+            <p>Learn Addition and Subtraction with Fingers</p>
+        </header>
+        <main>
+            <div id="problem" class="text-center my-4">
+                <img id="num1-image" src="" alt="Number 1" class="finger-image">
+                <span id="operator">+</span>
+                <img id="num2-image" src="" alt="Number 2" class="finger-image">
+                <span>=</span>
+                <span id="result"></span>
+            </div>
+            <div class="text-center my-4">
+                <button id="new-problem" class="btn btn-primary btn-lg">New Problem</button>
+                <button id="show-answer" class="btn btn-success btn-lg">Show Answer</button>
+            </div>
+        </main>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
